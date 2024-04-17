@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.802" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="To check the functionality of home page to explore things" name="To validate that user is able to view and select quantity of product" time="12.649">
+<failure type="java.lang.AssertionError" message="expected [2] but found [1]">
+<![CDATA[java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at HomePageStepDefinition.StepDefinitionHomePage.user_is_able_to_view_quantity_more_than_and_able_to_select_it(StepDefinitionHomePage.java:258)
+	at ✽.User is able to view quantity more than 1 and able to select it.(file:///C:/Users/DGHILDIY/Desktop/Shop/src/test/resources/Features/HomePage.feature:64)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on homepage of Asian Paint website............................passed
+When User hovers on SHOP functionality and clicks on DIY TOOLS..............passed
+And User clicks on the image from product list and lands to the descriptive page of it.passed
+And User selects the quantity from the below dropdown list of QUANTITY......passed
+Then User is able to view quantity more than 1 and able to select it........failed
+]]></system-out>
+</testcase>
+</testsuite>

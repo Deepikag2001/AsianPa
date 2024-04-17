@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.617" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="To check the functionality of home page to explore things" name="To validate that user is able to select filters of blog option and get the updated list of products" time="6.348">
+<failure type="org.openqa.selenium.ElementNotInteractableException" message="element not interactable
+  (Session info: chrome=123.0.6312.122)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5134d33b47f06aa86846eab3df03e667, clickElement {id=f.B4037B71E537A6CD4451EB0093CE0F10.d.F6335A170DB77A2361A1E8B563B8EB62.e.133}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52903/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5134d33b47f06aa86846eab3df03e667)] -&gt; xpath: //a[@href=&quot;https://www.asianpaints.com/blogs.html&quot;][1]]
+Session ID: 5134d33b47f06aa86846eab3df03e667">
+<![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.122)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5134d33b47f06aa86846eab3df03e667, clickElement {id=f.B4037B71E537A6CD4451EB0093CE0F10.d.F6335A170DB77A2361A1E8B563B8EB62.e.133}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52903/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5134d33b47f06aa86846eab3df03e667)] -> xpath: //a[@href="https://www.asianpaints.com/blogs.html"][1]]
+Session ID: 5134d33b47f06aa86846eab3df03e667
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at HomePageFactory.PageFactory3.clickBlogs(PageFactory3.java:42)
+	at HomePageStepDefinition.StepDefinitionHomePage.click_on_blogs_option_and_lands_to_the_page_of_blog_option(StepDefinitionHomePage.java:123)
+	at ✽.Click on BLOGS option and lands to the page of blog option(file:///C:/Users/DGHILDIY/Desktop/Shop/src/test/resources/Features/HomePage.feature:42)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on home page of Asian Paint...................................passed
+When User is able to hover on INSPIRATION...................................passed
+And Click on BLOGS option and lands to the page of blog option..............failed
+And User is able to select the filters by clicking on CATEGORY dropdown option.skipped
+And User is able to view old prodcuts by selecting SORT BY  option..........skipped
+Then User gets the updated list of products.................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

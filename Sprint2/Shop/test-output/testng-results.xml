@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-17T17:44:06 IST" name="Default suite" finished-at="2024-04-17T17:45:56 IST" duration-ms="109387">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.RunnerClass@6cb107fd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-17T17:44:06 IST" name="Default test" finished-at="2024-04-17T17:45:56 IST" duration-ms="109387">
+      <class name="RunnerClass.RunnerClass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClass.RunnerClass@6cb107fd]" started-at="2024-04-17T17:44:06 IST" name="setUpClass" finished-at="2024-04-17T17:44:07 IST" duration-ms="783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67a0ff25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.RunnerClass@6cb107fd]" started-at="2024-04-17T17:44:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-17T17:44:21 IST" duration-ms="13945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that user is able to click on find store nearby to the customer's location and selects the product type from below dropdown list of SELECT PRODUCTS & SERVICES"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To check the functionality of home page to explore things"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.RunnerClass@6cb107fd]" started-at="2024-04-17T17:44:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-17T17:44:51 IST" duration-ms="29994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that user is able to enter details for booking an appointment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To check the functionality of home page to explore things"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.RunnerClass@6cb107fd]" started-at="2024-04-17T17:44:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-17T17:45:02 IST" duration-ms="11347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that user is able to select filters of blog option and get the updated list of products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To check the functionality of home page to explore things"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.RunnerClass@6cb107fd]" started-at="2024-04-17T17:45:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-17T17:45:44 IST" duration-ms="41251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that user is able to add review and give rating on the product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To check the functionality of home page to explore things"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.RunnerClass@6cb107fd]" started-at="2024-04-17T17:45:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-17T17:45:55 IST" duration-ms="11524" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that user is able to view and select quantity of product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To check the functionality of home page to explore things"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at HomePageStepDefinition.StepDefinitionHomePage.user_is_able_to_view_quantity_more_than_and_able_to_select_it(StepDefinitionHomePage.java:260)
+at ✽.User is able to view quantity more than 1 and able to select it.(file:///C:/Users/DGHILDIY/Desktop/Shop/src/test/resources/Features/HomePage.feature:64)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClass.RunnerClass@6cb107fd]" started-at="2024-04-17T17:45:55 IST" name="tearDownClass" finished-at="2024-04-17T17:45:56 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunnerClass.RunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="108.19" tests="5" skipped="0" failures="1" errors="0">
+<testcase classname="To check the functionality of home page to explore things" name="To validate that user is able to click on find store nearby to the customer's location and selects the product type from below dropdown list of SELECT PRODUCTS &amp; SERVICES - Example #1.1" time="13.844">
+<system-out><![CDATA[
+Given User is on HOMEPAGE...................................................passed
+When User clicks FIND ASIAN PAINTS STORE option and lands to STORE LOCATOR page.passed
+And User is able to enter the 453441........................................passed
+And User is able to click on button.........................................passed
+And User is able to select product from dropdown of SELECT PRODUCTS & SERVICES.passed
+Then User finds the shop near by the pincode entered area and is able to select product type.passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the functionality of home page to explore things" name="To validate that user is able to enter details for booking an appointment - Example #1.1" time="29.982">
+<system-out><![CDATA[
+Given User is on store locator page.........................................passed
+When User is able to click on VIEW DETAILS option and lands to book an appointment page.passed
+And User is able to fill details Deepika, deepikaghildiyal2001@gmail.com , 7489654824 and 453441.passed
+And User is able to click on BOOK AN APPOINTMENT option.....................passed
+Then User is able to book appointment and get to the successfull booking appointment page.passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the functionality of home page to explore things" name="To validate that user is able to select filters of blog option and get the updated list of products" time="11.34">
+<system-out><![CDATA[
+Given User is on home page of Asian Paint...................................passed
+When User is able to hover on INSPIRATION...................................passed
+And Click on BLOGS option and lands to the page of blog option..............passed
+And User is able to select the filters by clicking on CATEGORY dropdown option.passed
+And User is able to view old prodcuts by selecting SORT BY  option..........passed
+Then User gets the updated list of products.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the functionality of home page to explore things" name="To validate that user is able to add review and give rating on the product" time="41.242">
+<system-out><![CDATA[
+Given User is on homepage of Asian Paint site...............................passed
+When User hovers on the SHOP functionality and selects option PEEL & STICK WALLPAPERS.passed
+And User clicks on the product image and lands to the new page..............passed
+And User scrolls down the page and clicks on WRITE A REVIEW.................passed
+And User enters the mobile number and click on SUBMIT.......................passed
+And Enter otp and click on SUBMIT...........................................passed
+And User writes a review and clicks on SUBMIT button........................passed
+And User can give ratings to the product by clicking on stars option........passed
+Then User is able to add review and ratings on the product..................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the functionality of home page to explore things" name="To validate that user is able to view and select quantity of product" time="11.519">
+<failure type="java.lang.AssertionError" message="expected [2] but found [1]">
+<![CDATA[java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at HomePageStepDefinition.StepDefinitionHomePage.user_is_able_to_view_quantity_more_than_and_able_to_select_it(StepDefinitionHomePage.java:260)
+	at ✽.User is able to view quantity more than 1 and able to select it.(file:///C:/Users/DGHILDIY/Desktop/Shop/src/test/resources/Features/HomePage.feature:64)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on homepage of Asian Paint website............................passed
+When User hovers on SHOP functionality and clicks on DIY TOOLS..............passed
+And User clicks on the image from product list and lands to the descriptive page of it.passed
+And User selects the quantity from the below dropdown list of QUANTITY......passed
+Then User is able to view quantity more than 1 and able to select it........failed
+]]></system-out>
+</testcase>
+</testsuite>
